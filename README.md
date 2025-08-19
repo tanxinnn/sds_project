@@ -1,4 +1,4 @@
-## Step1 Data Cleaning
+## Step1 Data Cleaning(8/12)
 1. 行頭の@@数字の部分を消す
 2. spacyを使うと処理が重くなるため、正規表現で文ごとに分割する
 3. 固有表現（@@@@@@)が入っている文を消す
@@ -6,7 +6,11 @@
 5. クリーンされたファイルを新しいフォルダで保存する
 6. 問題：　tv&movies: (@on_radio) , @5Music-Playing@6　｜　spoken: @(Voiceover), @!Ms-CHITTICK, @1ANDY-COHEN@2 : のような表現がある
 
-## Step2 Frequency Ranking
+## Step2 Frequency Ranking(8/12)
 1. クリーンされたファイルを用いて、機能語を除き、アルファベットのみで構成される単語を対象とする
 2. spacyを使い、それぞれのドメイン、年代に対して出現頻度が100を超えた単語を見つけ出す、6つのcsvファイルに保存する。
    （spacyは一回で処理できる単語が上限あるため一回で100000語分析するようにした）
+
+## todo(8/19)
+1. ほかのドメインごとに集計(tmuxを使う)
+2. 単語埋め込み獲得　worker 4*30 (numpy, pickleで保存）
