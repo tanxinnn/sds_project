@@ -4,7 +4,7 @@
 3. 固有表現（@@@@@@)が入っている文を消す
 4. <p\>を消す
 5. クリーンされたファイルを新しいフォルダで保存する
-6. tv&movies: (@on_radio) , @5Music-Playing@6　｜　spoken: @(Voiceover), @!Ms-CHITTICK, @1ANDY-COHEN@2 : 
+6. 問題：　tv&movies: (@on_radio) , @5Music-Playing@6　｜　spoken: @(Voiceover), @!Ms-CHITTICK, @1ANDY-COHEN@2 : のような表現がある
 
 ## Step2 Frequency Ranking
 1. クリーンされたファイルを用いて、機能語を除き、アルファベットのみで構成される単語を対象とする
